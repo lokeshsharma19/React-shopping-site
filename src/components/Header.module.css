@@ -1,0 +1,35 @@
+.header {
+  background-color: #3879a5;
+  color: #ecf0f1;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showCart {
+  background: transparent;
+  border: none;
+  display: flex;
+  gap: 0.8rem;
+  color: #ecf0f1;
+  font-size: 1.1rem;
+}
+
+.cartItemAndNum {
+  position: relative;
+}
+.number {
+  border: 0.5px solid #fff;
+  font-size: 0.7rem;
+  position: absolute;
+  right: -13px;
+  top: -10px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: red;
+  line-height: 1.4;
+}
